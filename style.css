@@ -35,9 +35,11 @@
     color: #000;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+
   a{
     text-decoration: none;
   }
+
   /* header ends here */
 
 /* main */
@@ -91,21 +93,12 @@ h2{
     display: flex;
     justify-content:center;
     flex-direction: column;
-    background-color: #eefef8;
+    background-color: #fff;
     align-items: center;
     /* width: 100%;
     height: 62px; */
 }
 
-.footer-container ul{
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-nav li{
-padding: 10px;
-list-style: none;
-}
 
 /* Media Query for 834px width and 1194px height */
  @media screen and (max-width: 834px) {
@@ -147,23 +140,6 @@ list-style: none;
     .poki-container h4{
         margin: auto;
     }
-    /* .cards {
-      display: grid;
-      grid-template-rows: 210px 210px 210px;
-      grid-template-columns: 20% 20% 20%;
-      grid-gap: 30px;
-      justify-content: center;
-      padding-top: 70px;
-      grid-template-areas:
-        "crd1 crd2 crd3"
-        "crd4 . crd5"
-        "crd6 crd7 crd8";
-    }
-  
-    .crd {
-      background-color: #eefef8;
-      border-radius: 27px;
-    } */
   
     .poki{
       min-width: 130px;
@@ -195,40 +171,22 @@ list-style: none;
     .nav-container {
       display: flex;
       justify-content: space-between;
-      background-color: #d6c7c7;
+      background-color: #fff;
       padding: 30px 100px; /* Adjust padding as needed, 10px is for top and 50px is for right and left*/
     }
   }
   
   @media (max-width: 600px) {
     .logo h1 {
-      font-size: 10px;
+      font-size: 17px;
     }
   
     .nav-links a {
       text-decoration: none;
       color: #000;
-      font-size: 0.6em;
+      font-size: 1em;
     }
-  
-    /* .cards {
-      display: grid;
-      grid-template-rows: 210px 210px 210px;
-      grid-template-columns: 30% 30%;
-      grid-gap: 30px;
-      justify-content: center;
-      padding-top: 70px;
-      grid-template-areas:
-        "crd1 crd2"
-        "crd4 crd5"
-        "crd6 crd7"
-        "crd3 crd8";
-    }
-   */
-    /* .crd {
-      background-color: #eefef8;
-      border-radius: 27px;
-    } */
+
   
     .poki{
         min-width: 120px;
@@ -254,7 +212,7 @@ list-style: none;
     .nav-container {
       display: flex;
       justify-content: space-between;
-      background-color: #d6c7c7;
+      background-color: #fff;
       padding: 30px 100px; /* Adjust padding as needed, 10px is for top and 50px is for right and left*/
     }
   
