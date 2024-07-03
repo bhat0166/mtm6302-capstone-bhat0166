@@ -35,6 +35,11 @@
     color: #000;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  a{
+    text-decoration: none;
+  }
+  
   /* header ends here */
 
 /* main */
