@@ -4,90 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone Porject</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Pokedex</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
+        <!-- naviagtion start here -->
         <nav class="nav-container">
             <div class="logo">
-                <a href="index.html">
-                    <h1>Pokedex</h1>
-                </a>
+                <h1>Pokedex</h1>
             </div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#">All Pokemon</a></li>
-                    <li><a href="#">Uncaught</a></li>
-                </ul>
-            </div>
-
+            <ul class="nav-links">
+                <li><a href="#" id="all-pokemon">All Pokemon</a></li>
+                <li><a href="#" id="uncaught-pokemon">Uncaught</a></li>
+            </ul>
         </nav>
     </header>
-
     <main>
-        <div class="cards">
-            <div class="crd1 crd">
-                <a href="balbasaur.html"><img class="poki" src="images/pokemon-gallery/Pokemon480x515.png"
-                        alt="pokemon"></a>
-                <br>
-                <div>Bulbasaur</div>
-            </div>
-            <div class="crd2 crd">
-                <a href="anorith.html"><img class="poki" src="images/pokemon-gallery/armaldo-640x550-480_x_515.png"
-                        alt="armaldo pokemon"></a>
-                <br>
-                <div>Armlado</div>
-            </div>
-            <div class="crd3 crd">
-                <a href="vaporeon.html"><img class="poki" src="images/pokemon-gallery/vaporeon-480x588-480_x_515.png"
-                        alt="vaporeon pokemon"></a>
-                <br>
-                <div>vaporeon</div>
-            </div>
-            <div class="crd4 crd">
-                <a href="munchlax.html"><img class="poki" src="images/pokemon-gallery/Munchlax-480x639-480_x_515.png"
-                        alt="Munchlax pokemon"></a>
-                <br>
-                <div>Munchlax</div>
-            </div>
-            <div class="crd5 crd">
-                <a href="charmander.html"><img class="poki"
-                        src="images/pokemon-gallery/charmander-480x532-480_x_515.png" alt="Charmander pokemon"></a>
-                <br>
-                <div>Charmander</div>
-            </div>
-            <div class="crd6 crd">
-                <a href="pichu.html"><img class="poki" src="images/pokemon-gallery/pikachu-480x480-480_x_515.png"
-                        alt="Pikachu pokemon"></a>
-                <br>
-                <div>Pikachu</div>
-            </div>
-
-            <div class="crd7 crd">
-                <a href="eevee.html"><img class="poki" src="images/pokemon-gallery/eevee-480x528-480_x_515.png"
-                        alt="eevee pokemon"></a>
-                <br>
-                <div>Eevee</div>
-            </div>
-            <div class="crd8 crd">
-                <a href="caterpie.html"><img class="poki" src="images/pokemon-gallery/caterpie-480_x_515.png"
-                        alt="caterpie pokemon"></a>
-                <br>
-                <div>Caterpie</div>
-            </div>
-        </div>
+        <div id="pokemon-container" class="cards"></div>
+        <button id="load-more" class="load-more-btn">Load More</button>
+        <div id="pokemon-details" class="pokemon-details"></div>
     </main>
-
     <footer>
+        <!-- footer content -->
         <div class="footer-container">
-            <br>
             <h3>Pokedex</h3>
-            <br>
-            <p>copyright 2024</p>
+            <p>&copy; 2024</p>
         </div>
     </footer>
+    <!-- link js here -->
+    <script src="script.js"></script>
 </body>
 
 </html>
